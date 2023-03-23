@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        body{
+            margin:0;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            min-width: 400px;
+        }
+        input{
+            width: 100%;
+            padding:10px;
+            box-sizing: border-box;
+            border: 1px solid #5f9341;
+        }
+        button{
+            color: aliceblue;
+            background-color: #5f9341;
+            border: 2px solid;
+            padding: 10px 20px;
+            font-weight: bold;            
+        }
+        #del-btn{
+            color:  #5f9341;
+            background-color: white;
+            border: 1px solid;
+            padding: 10px 20px;
+            font-weight: bold;  
+        }
+        ul{
+            margin-top: 20px;
+            list-style: none;
+            padding-left: 0;
+        }
+        li{
+            margin-top: 5px;
+        }
+        li a{
+            color: #5f9341;
+        }
+    </style>
+    <body>
+        <input type="text" id="input-el"><br><br>
+        <button id="input-btn">SAVE INPUT</button>
+        <button id="tab-btn">SAVE TAB</button>
+        <button id="del-btn">DELETE ALL</button>
+        <ul id="ul-el"></ul>
+        <script src="chromeExtn.js"></script>
+    </body>
+</html>
